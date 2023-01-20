@@ -53,4 +53,4 @@ jobs:
           app-name: 'myViteReact'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_23DAA4894D9A4C4CB6E3E083990F38B0 }}
-          package: build
+          package: .
